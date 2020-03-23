@@ -11,7 +11,7 @@ module.exports = (app)=>{
                 var title=(data[i]['title']);
                 if(check!=null){
                 sleep(check*3600000)
-                console.log(check,title); 
+                console.log("reminder is completed 🙂",title); 
             }    
            }  
         })
